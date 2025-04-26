@@ -3,7 +3,7 @@ import myContext from "../../context/myContext";
 import { useContext, useEffect, useState } from "react";
 import Loader from "../loader/Loader";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, deleteFromCart } from "../../redux/CartSlice";
+import { addToCart, deleteFromCart } from "../../redux/cartSlice.jsx";
 import toast from "react-hot-toast";
 
 const HomePageProductCard = () => {
