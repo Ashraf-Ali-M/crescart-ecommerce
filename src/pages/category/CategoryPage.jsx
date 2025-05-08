@@ -97,7 +97,7 @@ const CategoryPage = () => {
 
                                                                         <button
                                                                             onClick={() => addCart(item)}
-                                                                            className=" bg-pink-500 hover:bg-pink-600 w-full text-white py-[4px] rounded-lg font-bold">
+                                                                            className=" bg-blue-900 hover:bg-blue-600 w-full text-white py-[4px] rounded-lg font-bold">
                                                                             Add To Cart
                                                                         </button>
                                                                     }

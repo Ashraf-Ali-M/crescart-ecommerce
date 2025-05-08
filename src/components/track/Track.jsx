@@ -5,8 +5,8 @@ const Track = () => {
     {
       title: "Order Tracking",
       description: "Track your orders in real-time from purchase to delivery.",
-      iconColor: "text-blue-500",
-      shadowColor: "rgba(96, 165, 250, 0.4)", // blue-400
+      iconColor: "text-orange-500",
+      shadowColor: "rgba(251, 191, 36, 0.4)", // amber-400
     },
     {
       title: "Secure Payments",

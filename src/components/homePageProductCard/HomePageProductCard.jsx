@@ -54,7 +54,7 @@ const HomePageProductCard = () => {
                 <div key={index} className="p-4 w-full md:w-1/4">
                   <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer transition duration-300 hover:scale-[1.02]"
                   style={{
-                    boxShadow: "0 4px 15px rgba(244, 114, 182, 0.4)",
+                    boxShadow: "0 4px 15px rgba(96, 165, 250, 0.4)",
                   }}>
                     <img
                       onClick={() => navigate(`/productinfo/${id}`)}
@@ -85,7 +85,7 @@ const HomePageProductCard = () => {
                         ) : (
                           <button
                             onClick={() => addCart(item)}
-                            className="bg-pink-500 hover:bg-pink-600 w-full text-white py-[4px] rounded-lg font-bold"
+                            className="bg-blue-900 hover:bg-blue-800 w-full text-white py-[4px] rounded-lg font-bold"
                           >
                             Add to Cart
                           </button>

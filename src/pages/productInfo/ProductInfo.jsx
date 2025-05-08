@@ -175,7 +175,7 @@ const ProductInfo = () => {
                                                 :
                                                 <button
                                                     onClick={() => addCart(product)}
-                                                    className="w-full px-4 py-3 text-center text-pink-600 bg-pink-100 border border-pink-600  hover:bg-pink-600 hover:text-gray-100  rounded-xl"
+                                                    className="w-full px-4 py-3 text-center text-blue-900 bg-blue-100 border border-blue-900  hover:bg-blue-900 hover:text-gray-100  rounded-xl"
                                                 >
                                                     Add to cart
                                                 </button>
@@ -183,7 +183,7 @@ const ProductInfo = () => {
                                         </div>
                                         <div className="flex gap-4 mb-6">
                                             <button
-                                                className="w-full px-4 py-3 text-center text-gray-100 bg-pink-600 border border-transparent dark:border-gray-700 hover:border-pink-500 hover:text-pink-700 hover:bg-pink-100 rounded-xl"
+                                                className="w-full px-4 py-3 text-center text-gray-100 bg-blue-900 border border-transparent dark:border-gray-700 hover:border-blue-500 hover:text-blue-900 hover:bg-blue-100 rounded-xl"
                                             >
                                                 Buy now
                                             </button>
