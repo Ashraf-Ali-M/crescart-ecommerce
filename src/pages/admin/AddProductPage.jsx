@@ -30,6 +30,15 @@ const categoryList = [
     },
     {
         name: 'books'
+    },
+    {
+        name: 'cosmetics'
+    },
+    {
+        name: 'food'
+    },
+    {
+        name: 'watch'
     }
 ]
 

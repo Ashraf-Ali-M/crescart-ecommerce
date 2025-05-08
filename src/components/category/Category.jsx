@@ -32,7 +32,19 @@ const category = [
     {
         image: 'https://cdn-icons-png.flaticon.com/256/11946/11946316.png',
         name: 'Books'
-    }
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/128/1312/1312091.png',
+        name: 'Cosmetics'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/128/9718/9718703.png',
+        name: 'Food'
+    },
+    {
+        image: 'https://cdn-icons-png.flaticon.com/128/9572/9572615.png',
+        name: 'Watch'
+    },
 ]
 
 const Category = () => {
