@@ -56,8 +56,8 @@ const Category = () => {
     return (
         <div>
             <div className="flex flex-col mt-5">
-                <div className="flex overflow-x-scroll lg:justify-center  hide-scroll-bar">
-                    <div className="flex ">
+                <div className="flex overflow-x-scroll lg:justify-center  hide-scroll-bar  px-3 lg:px-0">
+                    <div className="flex space-x-4 snap-x snap-mandatory">
                         {category.map((item, index) => {
                             return (
                                 <div key={index} className="px-3 lg:px-10">
