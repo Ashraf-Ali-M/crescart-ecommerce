@@ -38,7 +38,7 @@ const Testimonial = () => {
                       <div className="lg:w-1/3 lg:mb-0 p-4">
                           <div className="h-full text-center">
                               <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/images/thalha.jpg" />
-                              <p className="leading-relaxed">CresCart is a wonderful platform for students like me to discover and share products within the campus. As an Aids student, I appreciate how easy it is to find useful items and sell things that I no longer need. The platform promotes sustainability, and it feels great to be part of this eco-conscious initiative.</p>
+                              <p className="leading-relaxed">CresCart is a wonderful platform for students like me to discover and share products within the campus. As an AIDS student, I appreciate how easy it is to find useful items and sell things that I no longer need. The platform promotes sustainability, and it feels great to be part of this eco-conscious initiative.</p>
                               <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Thalha</h2>
                               <p className="text-gray-500">Student, AIDS Department</p>
