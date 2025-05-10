@@ -37,7 +37,10 @@ const HomePageProductCard = () => {
     <div className="mt-10">
       {/* heading */}
       <div className="">
-        <h1 className="text-center mb-5 text-2xl font-semibold">
+        <h1 className="text-center mb-5 text-2xl font-semibold text-white"
+style={{
+    textShadow: '0 0 5px #ff00cc, 0 0 10px #ff00cc, 0 0 15px #ff00cc',
+  }}>
           What's Hot on Campus! ️‍🔥
         </h1>
       </div>
