@@ -58,11 +58,11 @@ const AllProduct = () => {
                                             src={productImageUrl}
                                             alt="blog"
                                         />
-                                        <div className="p-6">
+                                        <div className="p-6 flex flex-col justify-between h-[240px]">
                                             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                                                 CresCart
                                             </h2>
-                                            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                                            <h1 className="title-font text-lg font-medium text-gray-900 mb-3 h-12 overflow-hidden">
                                                 {title.substring(0, 32)}
                                             </h1>
                                             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
