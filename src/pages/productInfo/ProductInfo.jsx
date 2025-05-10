@@ -74,7 +74,9 @@ const ProductInfo = () => {
                     <>
                         <div className="max-w-6xl px-4 mx-auto">
                             <div className="flex flex-wrap mb-24 -mx-4">
-                                <div className="w-full px-4 mb-8 md:w-1/2 md:mb-0">
+                                <div className="w-full px-4 mb-8 md:w-1/2 md:mb-0 style={{
+                                        boxShadow: "0 4px 15px rgba(96, 165, 250, 0.4)",
+                                      }}">
                                     <div className="">
                                         <div className="">
                                             <img
