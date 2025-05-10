@@ -38,7 +38,7 @@ const HomePageProductCard = () => {
       {/* heading */}
       <div className="">
         <h1 className="text-center mb-5 text-2xl font-semibold">
-          Bestselling Products
+          What's Hot on Campus! ️‍🔥
         </h1>
       </div>
 
