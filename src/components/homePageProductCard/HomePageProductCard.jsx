@@ -63,7 +63,7 @@ const HomePageProductCard = () => {
                       alt={title}
                     />
 
-                    <div className="p-6 flex flex-col justify-between h-full">
+                    <div className="p-6 flex flex-col justify-between h-[220px]">
                       <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                         CresCart
                       </h2>
