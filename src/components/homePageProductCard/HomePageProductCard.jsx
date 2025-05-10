@@ -38,7 +38,6 @@ const HomePageProductCard = () => {
       {/* heading */}
       <div className="">
         <h1 className="text-center mb-5 text-2xl font-semibold text-blue-800"
-style={{
     style={{
     textShadow:
       '0 0 4px #93c5fd, 0 0 8px #3b82f6, 0 0 12px #2563eb',
