@@ -14,10 +14,7 @@ const categoryList = [
         name: 'jacket'
     },
     {
-        name: 'mobile'
-    },
-    {
-        name: 'laptop'
+        name: 'electronics'
     },
     {
         name: 'shoes'
