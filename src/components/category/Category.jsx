@@ -10,12 +10,8 @@ const category = [
         name: 'Jacket'
     },
     {
-        image: 'https://cdn-icons-png.flaticon.com/256/7648/7648246.png',
-        name: 'Mobile'
-    },
-    {
         image: 'https://cdn-icons-png.flaticon.com/256/12142/12142416.png',
-        name: 'Laptop'
+        name: 'Electronics'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/10686/10686553.png',
