@@ -52,7 +52,7 @@ const HomePageProductCard = () => {
               const { id, title, price, productImageUrl } = item;
               return (
                 <div key={index} className="p-4 w-full md:w-1/4">
-                  <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer transition duration-300 hover:scale-[1.02] flex flex-col justify-between"
+                  <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer transition duration-300 hover:scale-[1.02]"
                   style={{
                     boxShadow: "0 4px 15px rgba(96, 165, 250, 0.4)",
                   }}>
@@ -63,7 +63,7 @@ const HomePageProductCard = () => {
                       alt={title}
                     />
 
-                    <div className="p-6">
+                    <div className="p-6 flex flex-col justify-between">
                       <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                         CresCart
                       </h2>
