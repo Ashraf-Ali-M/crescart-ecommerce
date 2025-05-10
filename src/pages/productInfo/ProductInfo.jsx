@@ -74,13 +74,13 @@ const ProductInfo = () => {
                     <>
                         <div className="max-w-6xl px-4 mx-auto">
                             <div className="flex flex-wrap mb-24 -mx-4">
-                                <div className="w-full px-4 mb-8 md:w-1/2 md:mb-0 style={{
-                                        boxShadow: "0 4px 15px rgba(96, 165, 250, 0.4)",
-                                      }}">
+                                <div className="w-full px-4 mb-8 md:w-1/2 md:mb-0">
                                     <div className="">
                                         <div className="">
                                             <img
-                                                className=" w-full lg:h-[39em] rounded-lg"
+                                                className=" w-full lg:h-[39em] rounded-lg style={{
+                                        boxShadow: "0 4px 15px rgba(96, 165, 250, 0.4)",
+                                      }}"
                                                 src={product?.productImageUrl}
                                                 alt=""
                                             />
