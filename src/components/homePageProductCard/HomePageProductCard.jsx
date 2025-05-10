@@ -52,7 +52,7 @@ const HomePageProductCard = () => {
               const { id, title, price, productImageUrl } = item;
               return (
                 <div key={index} className="p-4 w-full md:w-1/4">
-                  <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer transition duration-300 hover:scale-[1.02]"
+                  <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer transition duration-300 hover:scale-[1.02] flex flex-col justify-between"
                   style={{
                     boxShadow: "0 4px 15px rgba(96, 165, 250, 0.4)",
                   }}>
