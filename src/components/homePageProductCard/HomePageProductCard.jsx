@@ -67,7 +67,7 @@ const HomePageProductCard = () => {
                       <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                         CresCart
                       </h2>
-                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3 h-12 overflow-hidden">
+                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3 h-12 overflow-hidden flex-grow">
                         {title.substring(0, 32)}
                       </h1>
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
