@@ -28,7 +28,7 @@ const Navbar = () => {
 
             {/* All Product */}
             <li>
-                <Link to={'/allproduct'}>All Product</Link>
+                <Link to={'/allproduct'}>All Products</Link>
             </li>
 
             {/* Signup */}
