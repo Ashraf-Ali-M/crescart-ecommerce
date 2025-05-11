@@ -98,7 +98,37 @@ const CartPage = () => {
     }
     return (
         <Layout>
-            <div className="container mx-auto px-4 max-w-7xl px-2 lg:px-0">
+            <div className="container mx-auto px-4 max-w-7xl px-2 lg:px-0 animate-fadeIn">
+                <style jsx>{`
+                    @keyframes fadeIn {
+                      from {
+                        opacity: 0;
+                      }
+                      to {
+                        opacity: 1;
+                      }
+                    }
+
+                    @keyframes bounce {
+                      0% {
+                        transform: scale(1);
+                      }
+                      50% {
+                        transform: scale(1.1);
+                      }
+                      100% {
+                        transform: scale(1);
+                      }
+                    }
+
+                    .animate-fadeIn {
+                      animation: fadeIn 1s ease-out;
+                    }
+
+                    .hover\:animate-bounce:hover {
+                      animation: bounce 0.5s ease-in-out;
+                    }
+                  `}</style>
                 <div className="mx-auto max-w-2xl py-8 lg:max-w-7xl">
                     <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                         Shopping Cart
@@ -162,7 +192,7 @@ const CartPage = () => {
                                                             </button>
                                                         </div>
                                                         <div className="ml-6 flex text-sm">
-                                                            <button onClick={() => deleteCart(item)} type="button" className="flex items-center space-x-1 px-2 py-1 pl-0">
+                                                            <button onClick={() => deleteCart(item)} type="button" className="flex items-center space-x-1 px-2 py-1 pl-0 hover:animate-bounce">
                                                                 <Trash size={12} className="text-red-500" />
                                                                 <span className="text-xs font-medium text-red-500">Remove</span>
                                                             </button>
