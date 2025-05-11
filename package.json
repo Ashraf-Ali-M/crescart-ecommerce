@@ -13,6 +13,7 @@
     "@material-tailwind/react": "^2.1.10",
     "@reduxjs/toolkit": "^2.7.0",
     "firebase": "^11.6.0",
+    "framer-motion": "^12.10.5",
     "lucide-react": "^0.501.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
